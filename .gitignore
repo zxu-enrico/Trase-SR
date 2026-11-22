@@ -1,0 +1,43 @@
+# Model weights and generated evaluation results
+/checkpoints/
+/results/
+*.safetensors
+*.pt
+*.pth
+
+# Local upstream archives and research notes
+/raw_material/
+/DOEM.pdf
+/TRACE_SR_novelty_review_*.md
+*.rar
+*.zip
+*.partial
+
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Credentials and machine-specific settings
+.env
+.env.*
+!.env.example
+.claude/settings.local.json
+.claude/projects/
+.codex/
+.agents/
+.aws/
+.vscode/
+.idea/
+.github/modernize/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini

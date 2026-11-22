@@ -1,0 +1,2 @@
+{"model": "gpt-6-luna", "split": "train", "samples": 4610, "seconds": 828.6, "max_new_tokens": 256, "batch_size": 32, "reasoning_effort": "none", "served_model": "gpt-6-luna", "openai": "3.50.0", "finished": "2026-11-13 11:39:43"}
+{"model": "gpt-6-luna", "split": "train", "samples": 86, "seconds": 13.3, "max_new_tokens": 768, "batch_size": 128, "reasoning_effort": "none", "served_model": "gpt-6-luna", "openai": "3.50.0", "finished": "2026-11-13 20:38:34"}

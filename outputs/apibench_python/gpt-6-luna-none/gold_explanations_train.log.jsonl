@@ -1,0 +1,5 @@
+{"model": "gpt-6-luna", "split": "train", "samples": 1450, "seconds": 440.6, "max_new_tokens": 256, "batch_size": 128, "reasoning_effort": "none", "served_model": "gpt-6-luna", "openai": "3.50.0", "finished": "2026-11-13 16:41:02"}
+{"model": "gpt-6-luna", "split": "train", "samples": 750, "seconds": 132.1, "max_new_tokens": 256, "batch_size": 128, "reasoning_effort": "none", "served_model": "gpt-6-luna", "openai": "3.50.0", "finished": "2026-11-13 16:43:26"}
+{"model": "gpt-6-luna", "split": "train", "samples": 703, "seconds": 120.0, "max_new_tokens": 256, "batch_size": 128, "reasoning_effort": "none", "served_model": "gpt-6-luna", "openai": "3.50.0", "finished": "2026-11-13 16:45:36"}
+{"model": "gpt-6-luna", "split": "train", "samples": 9, "seconds": 4.9, "max_new_tokens": 768, "batch_size": 128, "reasoning_effort": "none", "served_model": "gpt-6-luna", "openai": "3.50.0", "finished": "2026-11-13 20:38:55"}
+{"model": "gpt-6-luna", "split": "train", "samples": 364, "seconds": 23.7, "max_new_tokens": 768, "batch_size": 128, "reasoning_effort": "none", "served_model": "gpt-6-luna", "openai": "3.50.0", "finished": "2026-11-14 21:32:08"}

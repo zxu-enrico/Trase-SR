@@ -1,0 +1,2 @@
+-r ../generate/requirements.txt
+peft>=0.13

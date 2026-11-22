@@ -1,0 +1,2 @@
+{"model": "/home/enrico/data/models/Llama-3.2-3B-Instruct", "split": "train", "samples": 5192, "seconds": 311.8, "max_new_tokens": 128, "batch_size": 32, "gpu": "NVIDIA H100 80GB HBM3", "torch": "2.13.0+cu130", "transformers": "5.13.0", "finished": "2026-11-14 09:43:50"}
+{"model": "/home/enrico/data/models/Llama-3.2-3B-Instruct", "split": "train", "samples": 1026, "seconds": 65.9, "max_new_tokens": 128, "batch_size": 32, "gpu": "NVIDIA H100 80GB HBM3", "torch": "2.13.0+cu130", "transformers": "5.13.0", "finished": "2026-11-15 11:28:35"}

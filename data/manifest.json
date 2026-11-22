@@ -1,0 +1,82 @@
+{
+  "built_from": "raw_material/ (run raw_material/data_prep/export_lean.py)",
+  "seed": 42,
+  "rule": "keep samples whose gold APIs all have a description; apis.jsonl lists exactly the gold APIs of the kept samples",
+  "schema": {
+    "sample": {
+      "id": "str",
+      "request": "str",
+      "gold_apis": [
+        {
+          "api_id": "str",
+          "name": "str"
+        }
+      ],
+      "source": "APIBench-Q only"
+    },
+    "apis.jsonl": {
+      "api_id": "str",
+      "name": "str",
+      "description": "str",
+      "documented_as": "optional: the documented API when the gold label is a typo or unqualified"
+    }
+  },
+  "datasets": {
+    "ProgrammableWeb": {
+      "apis": 1212,
+      "described_apis_not_used_as_gold": 2,
+      "samples": {
+        "train": 4610,
+        "dev": 576,
+        "test": 577
+      },
+      "split": "existing seed-42 mashup-level split",
+      "samples_removed_for_undocumented_gold": 0
+    },
+    "APIBench_Q/java": {
+      "apis": 2595,
+      "described_apis_not_used_as_gold": 58,
+      "samples": {
+        "train": 5166,
+        "dev": 645,
+        "test": 647
+      },
+      "split": "new seed-42 split",
+      "queries_removed_for_undocumented_gold": 72,
+      "queries_removed_for_ambiguous_gold_label": 33,
+      "dropped_by_split_rule": {
+        "duplicate_request_same_gold": 0
+      }
+    },
+    "APIBench_Q/python": {
+      "apis": 660,
+      "described_apis_not_used_as_gold": 175,
+      "samples": {
+        "train": 1911,
+        "dev": 238,
+        "test": 240
+      },
+      "split": "new seed-42 split",
+      "queries_without_gold": 384,
+      "queries_removed_for_undocumented_gold": 296,
+      "queries_removed_for_ambiguous_gold_label": 1240,
+      "dropped_by_split_rule": {
+        "duplicate_request_same_gold": 0
+      }
+    }
+  },
+  "sha256": {
+    "APIBench_Q/java/apis.jsonl": "ea460184846ff14b60832d9b9efc4c9acb6dc6a34a65960d8ae6da1d8c8ac93f",
+    "APIBench_Q/java/dev.jsonl": "374d46ee742e0aa4b4dfc82f4e275db98de0e3393b71dbf079d24f0fd692c77e",
+    "APIBench_Q/java/test.jsonl": "8076f2ea67754e9b91422060684200e72eda9a906a4f432a1e384df452825862",
+    "APIBench_Q/java/train.jsonl": "bee9167a0d9b10f6b205f008cd82a8d47d96652ca46a6aead1b1760279f0e329",
+    "APIBench_Q/python/apis.jsonl": "f789eae2c043c730aab2bba0453db1d48e5692de147f59814e3f43acf9def334",
+    "APIBench_Q/python/dev.jsonl": "cc9c8c73afcb7bf3672c0baccfa3778c4407ec2657b8630222cbb16a626d5324",
+    "APIBench_Q/python/test.jsonl": "fc0a63a5943f56ca96d9c014b9a1132587ac462319da6d2363b427df99135066",
+    "APIBench_Q/python/train.jsonl": "bda6ac1bddc2ec8696bcb7ef4e7f5d90a519ac0dc4b9c9df6e69b63595755127",
+    "ProgrammableWeb/apis.jsonl": "9080b79328f6c62fb944d045ae72f69ee1af3bd5246187002ac226886d5d78ac",
+    "ProgrammableWeb/dev.jsonl": "6cc0fa4b5765fe6a3abb2cfbbf3f8dd9a4af2dc2ec5a845f54db9ba8ddc42fef",
+    "ProgrammableWeb/test.jsonl": "3ff4bf20b3f5b5c969d76c8a37d24083f23725b0f7767a7f38f34beb44a1ad80",
+    "ProgrammableWeb/train.jsonl": "4955de1b4084d8f21fc6728eaca956901806fe5be5455e9944e05b9426bf21d7"
+  }
+}
