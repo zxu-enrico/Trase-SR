@@ -40,6 +40,16 @@ B/C explain and recommend APIs from the request. D/E also receive a shared base-
 
 Direct recommendation scored higher in all 12 paired comparisons.
 
+### Best checkpoint epochs
+
+Built with Llama. [Download the LoRA checkpoints](https://github.com/zxu-enrico/Trase-SR/releases/tag/llama-checkpoints)
+
+| Dataset | A | B | C | D | E |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| ProgrammableWeb | 5 | 5 | 3 | 3 | 3 |
+| APIBench-Q Java | 4 | 4 | 5 | 5 | 4 |
+| APIBench-Q Python | 2 | 4 | 5 | 5 | 5 |
+
 ## Repository layout
 
 ```text
@@ -51,7 +61,7 @@ train/         LoRA fine-tuning and dev/test prediction
 TRACE_SR.pdf   Project proposal
 ```
 
-Prepared data and explanations are included so the five training conditions can use the same inputs. Local upstream archives, model checkpoints, and per-example predictions are stored locally.
+Prepared data and explanations are included so the five training conditions can use the same inputs. Upstream archives and per-example predictions are stored locally.
 
 ## Data
 
