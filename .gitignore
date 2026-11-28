@@ -1,6 +1,7 @@
 # Model weights and generated evaluation results
 /checkpoints/
-/results/
+/results/*
+!/results/test_metrics.json
 *.safetensors
 *.pt
 *.pth
